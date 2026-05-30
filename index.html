@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho e o Segredo do Sol - Energia Solar no Agro</title>
+    <style>
+        /* Paleta de cores baseada em tons de verde claro e elementos da natureza */
+        :root {
+            --bg-color: #f4f9f4;
+            --container-bg: #ffffff;
+            --primary-green: #2d6a4f;
+            --light-green: #d8f3dc;
+            --accent-green: #52b788;
+            --text-color: #1b4332;
+            --sun-yellow: #ffb703;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.8;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: var(--container-bg);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(45, 106, 79, 0.08);
+            border: 1px solid var(--light-green);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px dashed var(--light-green);
+            padding-bottom: 20px;
+        }
+
+        .sun-icon {
+            font-size: 3rem;
+            color: var(--sun-yellow);
+            animation: pulse 3s infinite alternate;
+        }
+
+        h1 {
+            color: var(--primary-green);
+            font-size: 2.2rem;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-style: italic;
+            color: var(--accent-green);
+            font-size: 1.1rem;
+        }
+
+        .story-section p {
+            margin-bottom: 20px;
+            font-size: 1.15rem;
+            text-align: justify;
+        }
+
+        /* Efeito visual bonito para a primeira letra da história */
+        .story-section p::first-letter {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary-green);
+            float: left;
+            margin-right: 8px;
+            line-height: 1;
+        }
+
+        /* Remove o efeito capitular dos parágrafos seguintes */
+        .story-section p ~ p::first-letter {
+            font-size: inherit;
+            font-weight: inherit;
+            color: inherit;
+            float: none;
+            margin-right: 0;
+            line-height: inherit;
+        }
+
+        .highlight-box {
+            background-color: var(--bg-color);
+            border-left: 4px solid var(--accent-green);
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+        }
+
+        .quiz-section {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px dashed var(--light-green);
+        }
+
+        .quiz-section h3 {
+            margin-bottom: 15px;
+            color: var(--primary-green);
+        }
+
+        .btn-quiz {
+            display: inline-block;
+            background-color: var(--primary-green);
+            color: white;
+            text-decoration: none;
+            padding: 15px 35px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(45, 106, 79, 0.2);
+        }
+
+        .btn-quiz:hover {
+            background-color: var(--accent-green);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(82, 183, 136, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="sun-icon">☀️</div>
+            <h1>Agrinho e o Segredo do Sol</h1>
+            <p class="subtitle">Uma jornada sobre energia limpa e sustentabilidade no campo</p>
+        </header>
+
+        <main class="story-section">
+            <p>Olá, pessoal! Aqui é o Agrinho. Hoje eu quero contar para vocês uma história incrível que testemunhei caminhando pelas plantações do nosso querido Paraná. Eu estava observando o céu azul e percebi o quanto o Sol trabalha duro todos os dias. Ele aquece a terra, faz as plantas crescerem através da fotossíntese e ilumina nossas vidas. Mas, há pouco tempo, descobri que podemos fazer uma parceria ainda mais forte com ele usando as chamadas placas solares fotovoltaicas.</p>
+
+            <p>Imagine essas placas como grandes folhas azuis ou escuras, mas feitas de silício, um material muito especial. Quando os raios de sol batem nelas, acontece uma verdadeira mágica da física: os elétrons começam a se movimentar, gerando energia elétrica purinha! Não precisa queimar combustíveis, não faz barulho e não solta fumaça no nosso planeta. É a luz do dia virando a força que move as coisas.</p>
+
+            <div class="highlight-box">
+                "No coração do agro, a energia solar ajuda a bombear água para a irrigação, ilumina as estufas e mantém os resfriadores de leite funcionando, tudo em perfeita harmonia com o meio ambiente."
+            </div>
+
+            <p>Para o produtor rural e para a sociedade, isso muda tudo. Ao produzir a própria energia de forma limpa, diminuímos a necessidade de inundar grandes áreas para construir hidrelétricas e evitamos o uso de usinas térmicas poluentes. O produtor economiza na conta de luz e pode investir mais na qualidade dos alimentos que chegam à sua mesa. É o que chamamos de equilíbrio perfeito: produzimos mais, protegemos a nossa fauna, a nossa flora e garantimos um futuro sustentável para as próximas gerações.</p>
+        </main>
+
+        <section class="quiz-section">
+            <h3>Será que você aprendeu o segredo do Sol comigo?</h3>
+            <p style="margin-bottom: 20px; color: #555;">Clique no botão abaixo para testar seus conhecimentos em um quiz super divertido!</p>
+            <a href="https://wayground.com" target="_blank" class="btn-quiz">Acessar Quiz no Wayground</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>Concurso Agrinho 2026 &copy; Desenvolvido para a Categoria Programação (Front-End)</p>
+    </footer>
+
+</body>
+</html>
